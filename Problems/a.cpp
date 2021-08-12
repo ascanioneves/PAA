@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Question 3.9 
 int bSearch(int n, int a[], int lo, int hi, int ans)
 {
   if (lo >= hi)
