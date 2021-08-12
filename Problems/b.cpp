@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Question 3.6
 int kthElement(int a1[], int a2[], int n, int m, int k, int lo, int hi)
 {
   if (n > m)
