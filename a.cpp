@@ -5,10 +5,7 @@ using namespace std;
 int bSearch(int n, int a[], int lo, int hi, int ans)
 {
   if (lo >= hi)
-  {
-    if (a[lo] > a[lo + 1]) return lo;
-    else return ans;
-  }
+    return lo;
   int mid = (lo + hi) / 2;
   if (a[mid] > a[mid + 1])
     return bSearch(n, a, lo, mid, mid);
