@@ -10,7 +10,7 @@ int partyAlgo(int numPeople){
 	queue<int> rejects;
 	int input, accepted = 0;
 
-   //Creando as relações
+   //Criando as relações
 	for(int i=0;i<numPeople;i++){
       cout << "Quem a " << G.getPerson(i) << " conhece? Digite -1 para terminar.\n";
       do{
