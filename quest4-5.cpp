@@ -28,8 +28,7 @@ int partyAlgo(int numPeople){
          else if (input == i+1)
             cout << "Esse numero pertence a ele mesmo!" << endl;
          else if (input == -1)
-            cout << "Pessoa "<< i+1 << " tem " << G.getDegree
-					(i)<<" relacoes." << endl;
+            cout << "Pessoa "<< i+1 << " tem " << G.getDegree(i)<<" relacoes." << endl;
          else
             cout << "Input invalido. Tente novamente: ";
       }while(input != -1);
