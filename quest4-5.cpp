@@ -5,10 +5,10 @@ using namespace std;
 
 int partyAlgo(int numPeople){
 
-	Graph G(numPeople);
-	bool invite[numPeople];
-	queue<int> rejects;
-	int input, accepted = 0;
+   Graph G(numPeople);
+   bool invite[numPeople];
+   queue<int> rejects;
+   int input, accepted = 0;
 
    //Criando as relações
    for(int i=0;i<numPeople;i++){
